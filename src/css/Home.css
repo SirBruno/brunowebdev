@@ -1,0 +1,29 @@
+.main-div {
+  background: url("../assets/bg-img-001.jpg");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: grid;
+  align-content: center;
+}
+
+.content {
+  color: white;
+  font-size: 50px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.bg-orange-hvr {
+  background-color: #FF5722;
+}
+
+.bg-orange-hvr:hover {
+  background-color: #D1481C;
+}
+
+.btn-large {
+  margin-top: 50px;
+}

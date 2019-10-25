@@ -1,0 +1,8 @@
+.nav-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+}
