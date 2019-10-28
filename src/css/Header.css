@@ -1,0 +1,37 @@
+/* orange: #fa3c00 */
+
+.main-div {
+  background: url("../assets/header_bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  align-content: center;
+  text-align: center;
+  height: 100vh;
+  display: grid;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+p {
+  font-weight: 100;
+  margin-top: 10px;
+  font-size: 18px;
+  color: rgba(255,255,255,0.75);
+}
+
+h1 {
+  text-shadow: 0 0 20px rgba(0,0,0,0.75);
+  font-weight: normal;
+  font-size: 70px;
+  margin: 0;
+}
+
+p b {
+  font-weight: 500;
+  color: #eee;
+  border-bottom: 2px solid #fa3c00;
+}

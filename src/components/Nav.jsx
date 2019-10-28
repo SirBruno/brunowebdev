@@ -3,6 +3,7 @@ import '../css/Nav.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import About from './About';
 import Home from './Home.jsx';
+import Logo from '../assets/Logo_BrunoPereira.png';
 
 class Nav extends React.Component {
   render() {
@@ -10,7 +11,7 @@ class Nav extends React.Component {
       <Router>
         <nav>
           <div className="nav-wrapper">
-            <span className="brand-logo">Logo</span>
+            <img src={Logo} className="brand-logo" alt="logo" />
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><Link to="/about">About</Link></li>
               <li><Link to="/">Home</Link></li>
