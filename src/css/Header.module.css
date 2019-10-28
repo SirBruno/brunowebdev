@@ -1,6 +1,6 @@
 /* orange: #fa3c00 */
 
-.main-div {
+.mainDiv {
   background: url("../assets/header_bg.jpg");
   background-position: bottom;
   background-size: cover;
@@ -34,4 +34,9 @@ p b {
   font-weight: 500;
   color: #eee;
   border-bottom: 2px solid #fa3c00;
+}
+
+.btn {
+  margin-top: 75px;
+  display: block;
 }

@@ -1,17 +1,17 @@
 import React from 'react';
-import '../css/Nav.css';
+import styles from '../css/Nav.module.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import About from './About';
 import Home from './Home.jsx';
-import Logo from '../assets/Logo_BrunoPereira.png';
+import Logo from '../assets/logo-bruno-pereira.svg';
 
 class Nav extends React.Component {
   render() {
     return (
       <Router>
         <nav>
-          <div className="nav-wrapper">
-            <img src={Logo} className="brand-logo" alt="logo" />
+          <div className={styles.navWrapper}>
+            <img src={Logo} className={styles.brandLogo} alt="logo" />
             <ul id="nav-mobile" className="right hide-on-med-and-down">
               <li><Link to="/about">About</Link></li>
               <li><Link to="/">Home</Link></li>
