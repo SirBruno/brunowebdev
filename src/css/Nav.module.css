@@ -42,3 +42,25 @@ ul li a:hover {
   margin: 20px;
   max-width: 150px;
 }
+
+.navMenuIcon {
+  display: block;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  ul li {
+    display: block;
+    padding-bottom: 20px;
+  }
+
+  .navMenu {
+    display: block;
+  }
+
+  .navMenuIcon {
+    display: block;
+    margin: 20px;
+    font-size: 25px;
+  }
+}

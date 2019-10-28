@@ -15,9 +15,9 @@ class Header extends React.Component {
           <div className={styles.content}>
             <p><b>Desenvolvedor Web</b> em Mogi Mirim, SP</p>
           </div>
-          <container className={styles.btn}>
-            <Button name="Contato" link="google.com" />
-          </container>
+          <section className={styles.btn}>
+            <Button name="Contato" link="/contato" />
+          </section>
         </div>
       </div>
     )
