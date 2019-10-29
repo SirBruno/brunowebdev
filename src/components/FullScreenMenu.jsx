@@ -11,7 +11,7 @@ class FullScreenMenu extends React.Component {
           <nav class={`${styles.navMenu} ${styles.navMenuOff}`}>
             <div>
               <ul>
-                <li><Link to="/">Home</Link></li>
+                <li><Link onClick={() => (this.props.navToggle())} to="/">Home</Link></li>
                 <li><Link to="/contato">Contato</Link></li>
               </ul>
             </div>
@@ -20,7 +20,7 @@ class FullScreenMenu extends React.Component {
         </div>
       )
     } else {
-      return(<h1 styles="display: none;"></h1>)
+      return(<h1 style={{display: 'none'}}></h1>)
     }
   }
 }

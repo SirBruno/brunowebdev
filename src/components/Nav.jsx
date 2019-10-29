@@ -30,7 +30,7 @@ class Nav extends React.Component {
         <nav>
           <div className={styles.navWrapper}>
             <img src={Logo} className={styles.brandLogo} alt="logo" />
-            <ul id="nav-mobile" className={styles.navMenu}>
+            <ul id={styles.navDesktop} className={styles.navMenu}>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/contato">Contato</Link></li>
             </ul>
