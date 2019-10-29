@@ -13,7 +13,7 @@ class Header extends React.Component {
             </h1>
           </div>
           <div className={styles.content}>
-            <p><b>Desenvolvedor Web</b> em Mogi Mirim, SP</p>
+            <p><b>Desenvolvedor Web</b><br className={styles.hideOnDesktop} /><span className={styles.hideOnMobile}> em </span>Mogi Mirim, SP</p>
           </div>
           <section className={styles.btn}>
             <Button name="Contato" link="/contato" />

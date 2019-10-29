@@ -64,4 +64,8 @@ ul li a:hover {
     margin: 20px;
     font-size: 25px;
   }
+
+  .brandLogo {
+    max-height: 35px !important;
+  }
 }

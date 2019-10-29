@@ -28,17 +28,21 @@ p {
   font-weight: normal;
   font-size: 70px;
   margin: 0;
+  text-shadow: 4px 4px 0 rgba(250, 60, 0, 0.7);
 }
 
 p b {
-  font-weight: 400;
+  font-weight: 500;
   color: #eee;
-  border-bottom: 2px solid #fa3c00;
 }
 
 .btn {
   margin-top: 75px;
   display: block;
+}
+
+.hideOnDesktop {
+  display: none;
 }
 
 @media screen and (max-width: 767px) {
@@ -47,10 +51,23 @@ p b {
   }
 
   .mainDiv h1 {
-    font-size: 35px;
+    font-size: 40px;
   }
 
   .mainDiv .content p {
-    font-size: 14px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .mainDiv .content p b {
+    font-weight: 500;
+  }
+
+  .hideOnMobile {
+    display: none;
+  }
+
+  .hideOnDesktop {
+    display: block;
   }
 }
