@@ -45,4 +45,12 @@ p b {
   body {
     height: 100vh !important;
   }
+
+  .mainDiv h1 {
+    font-size: 35px;
+  }
+
+  .mainDiv .content p {
+    font-size: 14px;
+  }
 }
