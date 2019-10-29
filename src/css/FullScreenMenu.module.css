@@ -1,4 +1,4 @@
-/* .navMenu {
+.navMenu {
   position: absolute;
   height: 100vh;
   display: grid;
@@ -24,4 +24,4 @@
   font-size: 25px;
   font-weight: 500 !important;
   color: #eee;
-} */
+}

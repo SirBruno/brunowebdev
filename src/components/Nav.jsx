@@ -12,29 +12,19 @@ class Nav extends React.Component {
     super(props);
 
     this.state = {
-      navStatus: 'navHide'
+      navStatus: false
     }
 
-    this.navOpen = this.navOpen.bind(this);
+    this.navToggle = this.navToggle.bind(this);
   }
 
-  navOpen (e) {
-    e.stopPropagation();
+  navToggle = () => {
     this.setState({
-      navStatus: 'navHide'
+      navStatus: !this.state.navStatus,
     });
   }
-
-  navShow (e) {
-    e.stopPropagation();
-    this.setState({
-      navStatus: 'navShow'
-    });
-  }
-
 
   render() {
-    
     return (
       <Router>
         <nav>
@@ -44,10 +34,10 @@ class Nav extends React.Component {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/contato">Contato</Link></li>
             </ul>
-            <i onClick={this.navShow} className={`${styles.navMenuIcon} fas fa-bars`}></i>
+            <i onClick={this.navToggle} className={`${styles.navMenuIcon} fas fa-bars`}></i>
           </div>
         </nav>
-        <FullScreenMenu />
+        <FullScreenMenu navToggle={this.navToggle} navShow={this.state.navStatus} />
         <Switch>
           <Route exact path="/">
             <Home />
