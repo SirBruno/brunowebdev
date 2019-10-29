@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import Nav from './Nav.jsx';
 
 class Contato extends Component {
   render() {
     return(
       <div>
-        <h1>HELLO WORLD</h1>
+        <Nav />
       </div>
     )
   }
