@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from '../css/Nav.module.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Home from './Home.jsx';
 import Logo from '../assets/logo-bruno-pereira.svg';
-import Contato from './Contato.jsx';
 import FullScreenMenu from './FullScreenMenu.jsx';
 
 class Nav extends React.Component {
@@ -26,7 +24,7 @@ class Nav extends React.Component {
 
   render() {
     return (
-      <Router>
+      <div>
         <nav>
           <div className={styles.navWrapper}>
             <img src={Logo} className={styles.brandLogo} alt="logo" />
@@ -38,15 +36,7 @@ class Nav extends React.Component {
           </div>
         </nav>
         <FullScreenMenu navToggle={this.navToggle} navShow={this.state.navStatus} />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/contato">
-            <Contato />
-          </Route>
-        </Switch>
-      </Router>
+      </div>
     )
   }
 }

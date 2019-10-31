@@ -4,8 +4,9 @@ import Nav from './Nav.jsx';
 class Contato extends Component {
   render() {
     return(
-      <div>
+      <div style={{background: 'red', height: '100vh'}}>
         <Nav />
+        <h1>working??</h1>
       </div>
     )
   }
