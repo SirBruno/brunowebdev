@@ -10,13 +10,20 @@
   display: grid;
 }
 
+.content {
+  color: #fff;
+}
+
+.content p b {
+  font-weight: 500;
+}
+
 body {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  color: white;
   margin: 0;
 }
 
-p {
+#header p {
   font-weight: 100;
   margin-top: 10px;
   font-size: 18px;
@@ -28,12 +35,7 @@ p {
   font-weight: normal;
   font-size: 70px;
   margin: 0;
-  text-shadow: 4px 4px 0 rgba(250, 60, 0, 0.7);
-}
-
-p b {
-  font-weight: 500;
-  color: #eee;
+  text-shadow: 4px 4px 0 #fa3c00;
 }
 
 .btn {

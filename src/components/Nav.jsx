@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../css/Nav.module.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from '../assets/logo-bruno-pereira.svg';
 import FullScreenMenu from './FullScreenMenu.jsx';
 

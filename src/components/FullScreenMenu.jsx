@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../css/FullScreenMenu.module.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class FullScreenMenu extends React.Component {
   render() {
@@ -20,7 +20,7 @@ class FullScreenMenu extends React.Component {
         </div>
       )
     } else {
-      return(<h1 style={{display: 'none'}}></h1>)
+      return(<span style={{display: 'none'}}></span>)
     }
   }
 }
