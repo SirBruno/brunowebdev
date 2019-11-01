@@ -44,8 +44,9 @@
 
 .innerSection {
   display: flex;
-  width: 1000px;
   margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .innerSectionContent img {
@@ -70,4 +71,10 @@
 .socialNetworks i:hover {
   color: #fa3c00;
   transition: .15s;
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    font-size: 16px;
+  }
 }
