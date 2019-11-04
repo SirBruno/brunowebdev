@@ -28,10 +28,10 @@ class Contato extends Component {
               <div className={`${styles.contactRow} tal`}>
                 <span className={styles.contactTitle}>Social networks:</span>
                 <p className={styles.socialNetworks}>
-                  <a href="https://www.linkedin.com/in/sirbruno/" target="_blank">
+                  <a href="https://www.linkedin.com/in/sirbruno/" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-linkedin-in"></i>
                   </a>
-                  <a href="https://www.instagram.com/bruno.webjr/" target="_blank">
+                  <a href="https://www.instagram.com/bruno.webjr/" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-instagram"></i>
                   </a>
                 </p>
@@ -46,12 +46,6 @@ class Contato extends Component {
 
           </div>
           {/* ##### </SECTION 1> ##### */}
-
-        </div>
-        <div className={styles.section}>
-          <div className={styles.innerSection}>
-            <p>new section</p>
-          </div>
         </div>
       </div>
     )
