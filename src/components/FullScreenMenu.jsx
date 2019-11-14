@@ -20,7 +20,7 @@ class FullScreenMenu extends React.Component {
         </div>
       )
     } else {
-      return(<span style={{display: 'none'}}></span>)
+      return null;
     }
   }
 }
