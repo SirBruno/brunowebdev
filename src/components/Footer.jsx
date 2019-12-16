@@ -25,7 +25,6 @@ class Footer extends Component {
             <p>Tel. (19) 97115 9735</p>
             <p>bruno.webjr@gmail.com</p>
             <p>Mogi Mirim, SP</p>
-            <p>teste</p>
           </div>
         </div>
       </footer>
